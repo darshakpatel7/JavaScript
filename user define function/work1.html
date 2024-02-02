@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- WAP to calculate CALC  Using Add, Sub, Mul, Div function -->
+    <script>
+        let a,b;
+        a = parseInt(prompt("enter a : "));
+        b = parseInt(prompt("enter a : "));
+
+        let add=(p,q) => p+q
+        let sub=(p,q) => p-q
+        let mult=(p,q) => p*q
+        let divi=(p,q) => p/q
+
+        document.write("a = ",a);
+        document.write("<br>b  = ",b);
+
+        document.write("<br>addition is a+b = ",add(a,b));
+        document.write("<br>subsraction is a-b = ",sub(a,b));
+        document.write("<br>multipication is a*b = ",mult(a,b));
+        document.write("<br>divition is a/b = ",divi(a,b));
+    </script>
+</body>
+</html>

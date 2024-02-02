@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- WAP to find Area using rectanlge, Triangle, circle functions. -->
+    <script>
+        const pi = 3.14;
+        let r;
+        r=parseInt(prompt("enter r :"));
+
+        let cricle = (r) => pi*r*r;
+        document.write("Area of Cricle : ",cricle(r)); 
+
+        let hight,width;
+        hight=parseInt(prompt("enter hight : "));
+        width=parseInt(prompt("enter width : "));
+
+        let Trianle = (h,w) => 0.5*h*w;
+        document.write("<br>Area of Trianle : ",Trianle(hight,width)); 
+
+        let breadth,length;
+        hight=parseInt(prompt("enter breadth : "));
+        width=parseInt(prompt("enter length : "));
+
+        let rectangle = (b,l) => b*l;
+        document.write("<br>Area of Rectangle : ",rectangle(hight,width));
+
+    </script>
+    
+</body>
+</html>

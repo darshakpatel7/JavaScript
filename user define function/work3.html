@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        let meter;
+        meter=parseFloat(prompt("enter meter :"));
+        let foot = (m) => m*3.2;
+        document.write("converter for meter to foot : ",foot(meter));
+
+        let celcius;
+        celcius=parseFloat(prompt("enter celcius :"));
+        let farenheit = (c) => (c * 1.8) + 32;
+        document.write("<br>converter for Celsius to Fahrenheit : ",farenheit(celcius));
+
+        let dollar;
+        dollar=parseInt(prompt("enter dollar :"));
+        let Rupees = (d) => dollar*82;
+        document.write("<br>converter for Dollar to Rupees : ",Rupees(dollar));
+
+    </script>
+</body>
+</html>
