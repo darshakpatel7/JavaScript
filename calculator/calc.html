@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./calc.css">
+</head>
+
+<body>
+  <div id="calcuatore">
+    <input type="text" name="no" id="no">
+    <div id="keys">
+        <button onclick="clearall()" class="oper-btn-1">C</button>
+        <button onclick="deleteData()" class="oper-btn">D</button>
+        <button onclick="addData ('%')" class="oper-btn">%</button>
+        <button onclick="addData ('/')" class="oper-btn">/</button>
+
+      <button onclick="addData ('7')">7</button>
+      <button onclick="addData ('8')">8</button>
+      <button onclick="addData ('9')">9</button>
+      <button onclick="addData ('*')" class="oper-btn">*</button>
+
+      <button onclick="addData ('4')">4</button>
+      <button onclick="addData ('5')">5</button>
+      <button onclick="addData ('6')">6</button>
+      <button onclick="addData ('-')" class="oper-btn">-</button>
+
+      <button onclick="addData ('1')">1</button>
+      <button onclick="addData ('2')">2</button>
+      <button onclick="addData ('3')">3</button>
+      <button onclick="addData ('+')" class="oper-btn">+</button>
+
+      <button onclick="addData ('00')">00</button>
+      <button onclick="addData ('0')">0</button>
+      <button onclick="addData ('.')">.</button>
+      <button onclick=getans() class="oper-btn">=</button>
+     
+    </div>
+
+  </div>
+  <script src="./calc.js"></script>
+</body>
+
+</html>
